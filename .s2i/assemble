@@ -1,0 +1,4 @@
+cp -Rf/tmp/src/mailer.py /opt/root-app/src/
+
+/usr/libexec/s2i/assemble
+rc=$?
